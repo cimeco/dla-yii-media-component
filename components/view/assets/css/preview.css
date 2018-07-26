@@ -1,0 +1,62 @@
+.thumbnail {
+  overflow: hidden;
+}
+.thumbnail img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+.thumbnail .preview-container img {
+  display: inline-block;
+}
+.thumbnail .helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.thumbnail .caption h4 {
+  padding-bottom: 20px;
+  margin-top: 2px;
+}
+.thumbnail hr {
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+.thumbnail .youtube-logo {
+  max-height: 16px;
+  margin-bottom: 14px;
+}
+.btn.btn-add {
+  position: absolute;
+  right: 7px;
+  bottom: 3px;
+}
+@media (min-width: 768px) {
+  .media-grid .thumbnail .preview-container {
+    width: 270px;
+    height: 270px;
+    overflow: hidden;
+  }
+}
+.modal-body .col-lg-3 .update-preview-img-container {
+  height: 150pt;
+}
+@media (min-width: 1199px) {
+  .preview-list .panel-body {
+    height: 343px;
+  }
+}
+@media (min-width: 990px) and (max-width: 1199px) {
+  .preview-list .panel-body {
+    height: 538px;
+  }
+}
+@media (max-width: 991px) {
+  .update-preview-img-container {
+    height: auto;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .update-preview-img-container {
+    height: 568px;
+  }
+}

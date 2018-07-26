@@ -1,0 +1,33 @@
+{
+    "name": "quoma/media-module",
+    "description": "Module of media",
+    "license": "quoma",
+    "authors": [
+        {
+            "name": "Quoma",
+            "email": "info@quoma.com.ar"
+        }
+    ],
+
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "quoma/yii2-core-components": ">=1.0.0",
+        "hosannahighertech/yii2-audiojs": "*",
+	"alexandernst/yii2-device-detect": "*",
+        "2amigos/yii2-google-maps-library" : "*"
+    },
+    
+    "repositories" : [
+        {
+            "type": "vcs",
+            "url": "https://bitbucket.org/quomateam/yii2-core-components.git"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "quoma\\media\\": ""
+        }
+    }
+    
+}

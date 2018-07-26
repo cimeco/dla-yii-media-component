@@ -1,0 +1,46 @@
+.optimize-indicators li {
+    display: block;
+    float:left;
+    padding: 6px 10px;
+    margin: 8px;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+    background-color: #777;
+    width: auto;
+    height: auto;
+    text-indent: initial;
+}
+.optimize-indicators li.active {
+    background-color: #5bc0de;
+    font-size: 22px;
+    line-height: 24px;
+    margin: 5px;
+    width: auto;
+    height: auto;
+}
+.optimize-indicators {
+    position: relative;
+    left: auto;
+    z-index: 15;
+    width: 100%;
+    padding-left: 0;
+    margin-left: auto;
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+}
+.optimizer-container{
+    display: inline-block;
+    height: 500px;
+}
+.optimizer-layout{
+    position: absolute;
+    background: #000;
+    opacity: 0.5;
+}
